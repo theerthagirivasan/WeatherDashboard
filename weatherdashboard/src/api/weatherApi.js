@@ -1,6 +1,4 @@
-// src/api/weatherApi.js
-
-const API_KEY = "b3a5ce0be7c3d9140b6ba9d8f073ff10"; // get it from https://openweathermap.org/api
+const API_KEY = "b3a5ce0be7c3d9140b6ba9d8f073ff10";
 
 export async function fetchWeatherData(city) {
   const response = await fetch(
