@@ -1,12 +1,17 @@
-/* src/App.css */
 body {
-  background: linear-gradient(to right, #83a4d4, #b6fbff);
-  font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
 }
 
 .App {
+  width: 100%;
+  max-width: 420px;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
